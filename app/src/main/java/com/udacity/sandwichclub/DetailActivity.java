@@ -83,7 +83,7 @@ public class DetailActivity extends AppCompatActivity {
         TextView mIngredients=(TextView) findViewById(R.id.ingredients_tv);
         TextView mAlsoKnownAs=(TextView) findViewById(R.id.also_known_tv);
 
-        String defaultText="Not Available";
+        String defaultText="Not Available!";
 
         String placeOfOrigin=sandwich.getPlaceOfOrigin();
         if(placeOfOrigin.length()==0) {
